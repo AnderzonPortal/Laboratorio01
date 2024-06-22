@@ -8,4 +8,4 @@ jobs:
       steps:
       -uses: action/checkout@4
       -name: saludar
-      run: echo "Hola, GitHub Action!"
+        run: echo "Hola, GitHub Action!"
