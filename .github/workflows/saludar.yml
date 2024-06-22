@@ -4,6 +4,6 @@ jobs:
   greet:
       runs-on: ubuntu-latest
       steps:
-      - uses: action/checkout@v4
+      - uses: actions/checkout@v4
       - name: saludar
         run: echo "Hola, GitHub Action!"
